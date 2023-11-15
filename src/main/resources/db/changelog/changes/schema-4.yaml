@@ -1,0 +1,16 @@
+databaseChangeLog:
+    - changeSet:  
+        id:  3 
+        author:  liquibase-docs  
+        changes:  
+        -  insert:  
+            columns:  
+            -  column:  
+                name:  id 
+                value:  2  
+            -  column:  
+                name:  name 
+                value:  wahu
+            dbms: h2
+            schemaName:  public  
+            tableName:  persons

@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/changelog/changes/schema-1.sql
+  - include:
+      file: classpath:/db/changelog/changes/schema-3.sql
+  - include:
+      file: classpath:/db/changelog/changes/schema-4.yaml
+ 
