@@ -1,0 +1,11 @@
+databaseChangeLog:
+    - changeSet:  
+        id:  309
+        author:  macharia 
+        changes:  
+        -  addColumn:  
+            columns:  
+            -  column:  
+                name:  age 
+                type:  INT  
+            tableName:  customer

@@ -1,0 +1,18 @@
+databaseChangeLog:
+    - changeSet:  
+        id:  001
+        author:  macharia 
+        changes:  
+        -  createTable:  
+            columns:  
+            -  column:  
+                name:  id 
+                type:  INT
+                constraints:  
+                  primaryKey: true  
+            -  column:  
+                name:  name 
+                type:  VARCHAR(255)
+            dbms: h2
+            schemaName:  public 
+            tableName:  customer
