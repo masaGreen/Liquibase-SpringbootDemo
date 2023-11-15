@@ -1,8 +1,12 @@
 databaseChangeLog:
   - include:
-      file: classpath:/db/changelog/changes/schema-1.sql
-  - include:
-      file: classpath:/db/changelog/changes/schema-3.sql
+      file: classpath:/db/changelog/changes/createtable-1.sql
   - include:
       file: classpath:/db/changelog/changes/schema-4.yaml
+  - include:
+      file: classpath:/db/changelog/changes/createTable-2.sql
+  - include:
+      file: classpath:/db/changelog/changes/table3.sql
+  - include:
+      file: classpath:/db/changelog/changes/table4.yaml
  
